@@ -14,33 +14,63 @@
         <link rel="stylesheet" href="reset.css" />
         <link rel="stylesheet" href="style.css" />
 
-        <title>Frontend Mentor | Intro component with sign up form</title>
+        <title>Intro component with sign up form</title>
     </head>
     <body>
         <main>
             <div class="wrapper">
                 <section class="signup-card">
-                    <h1 class="signup-card__header">Learn to code by watching others</h1>
-                    <p class="signup-card__description">
-                        See how experienced developers solve problems in real-time. Watching
-                        scripted tutorials is great, but understanding how developers think is
-                        invaluable.
-                    </p>
-                    <p class="signup-card__paid-plans">
-                        <strong class="signup-card__paid-plans--bold">Try it free 7 days</strong>
-                        then $20/mo. thereafter
-                    </p>
-                    <form class="signup-form" action="POST">
-                        <input type="text" id="first_name" placeholder="First Name" />
-                        <input type="text" id="last_name" placeholder="Last Name" />
-                        <input type="text" id="email" placeholder="Email Address" />
-                        <input type="text" id="Password" placeholder="Password" />
-                        <button class="signup-form__button">Claim your free trial</button>
-                        <p class="signup-form__agreement">
-                            By clicking the button, you are agreeing to our
-                            <a href="#">Terms and Services</a>
+                    <div class="signup-card--flex-wrapper">
+                        <h1 class="signup-card__header">Learn to code by watching others</h1>
+                        <p class="signup-card__description">
+                            See how experienced developers solve problems in real-time. Watching
+                            scripted tutorials is great, but understanding how developers think is
+                            invaluable.
                         </p>
-                    </form>
+                    </div>
+                    <div class="signup-card--flex-wrapper">
+                        <p class="signup-card__paid-plans">
+                            <strong class="signup-card__paid-plans--bold"
+                                >Try it free 7 days</strong
+                            >
+                            then $20/mo. thereafter
+                        </p>
+                        <form class="signup-form" action="POST">
+                            <input
+                                type="text"
+                                class="signup-form__input"
+                                id="first_name"
+                                placeholder="First Name"
+                            />
+                            <p class="signup-form__error-label">First Name cannot be empty</p>
+                            <input
+                                type="text"
+                                class="signup-form__input"
+                                id="last_name"
+                                placeholder="Last Name"
+                            />
+                            <p class="signup-form__error-label">Last Name cannot be empty</p>
+                            <input
+                                type="text"
+                                class="signup-form__input"
+                                id="email"
+                                placeholder="Email Address"
+                            />
+                            <p class="signup-form__error-label">Looks like this is not email</p>
+                            <input
+                                type="text"
+                                class="signup-form__input"
+                                id="Password"
+                                placeholder="Password"
+                            />
+                            <p class="signup-form__error-label">Password cannot be empty</p>
+                            <button class="signup-form__button">Claim your free trial</button>
+                            <p class="signup-form__agreement">
+                                By clicking the button, you are agreeing to our
+                                <a href="#">Terms and Services</a>
+                            </p>
+                        </form>
+                    </div>
                 </section>
             </div>
         </main>
