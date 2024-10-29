@@ -17,12 +17,13 @@ body {
     background-image: url(./images/bg-intro-mobile.png);
 }
 
-.wrapper {
+.signup-card {
     margin: 5rem 1.5rem;
     text-align: center;
 }
 
 .signup-card__header {
+
     font-size: 1.8rem;
     font-weight: 600;
     margin: 5.6rem auto 2rem;
@@ -136,4 +137,44 @@ body {
 .signup-form__agreement>a {
     color: var(--red);
     font-weight: 800;
+}
+
+
+@media (min-width: 680px) {
+
+
+    .signup-card {
+        width: 630px;
+        margin: auto;
+        height: 100vh;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+
+    .signup-card {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+
+    .signup-card--flex-wrapper {
+        max-width: 33%;
+        text-align: left;
+    }
+
+    .signup-card__header {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .signup-card__description {
+        font-size: 1rem;
+    }
+
 }
