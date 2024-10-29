@@ -38,37 +38,38 @@
                         <form class="signup-form" action="POST">
                             <input
                                 type="text"
-                                class="signup-form__input signup-form__input--error"
-                                id="first_name"
+                                class="signup-form__input"
+                                id="firstName"
                                 placeholder="First Name"
                             />
-
                             <p class="signup-form__error-label">First Name cannot be empty</p>
                             <input
                                 type="text"
-                                class="signup-form__input signup-form__input--error"
-                                id="last_name"
+                                class="signup-form__input"
+                                id="lastName"
                                 placeholder="Last Name"
                             />
 
                             <p class="signup-form__error-label">Last Name cannot be empty</p>
                             <input
                                 type="text"
-                                class="signup-form__input signup-form__input--error"
+                                class="signup-form__input"
                                 id="email"
                                 placeholder="Email Address"
                             />
 
                             <p class="signup-form__error-label">Looks like this is not email</p>
                             <input
-                                type="text"
-                                class="signup-form__input signup-form__input--error"
-                                id="Password"
+                                type="password"
+                                class="signup-form__input"
+                                id="password"
                                 placeholder="Password"
                             />
 
                             <p class="signup-form__error-label">Password cannot be empty</p>
-                            <button class="signup-form__button">Claim your free trial</button>
+                            <button type="submit" class="signup-form__button">
+                                Claim your free trial
+                            </button>
                             <p class="signup-form__agreement">
                                 By clicking the button, you are agreeing to our
                                 <a href="#">Terms and Services</a>
@@ -77,6 +78,7 @@
                     </div>
                 </section>
             </div>
+            <script src="javaScript.js"></script>
         </main>
     </body>
 </html>
