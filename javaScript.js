@@ -90,6 +90,11 @@ function validateInput(field, index, value, placeholder, regex = null) {
         field.value = "";
         field.placeholder = placeholder;
         errorLabel[index]?.classList.remove("active");
+
+        if (field.id == "email") {
+            emailSelector.classList.remove("error-placeholder");
+            inputField[2].value = "";
+        }
         return true;
     }
 }
