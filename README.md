@@ -21,8 +21,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### The challenge
 
-Users should be able to:
-
 -   From the previous challenge i was able to put error icons on the right position with _absolute_, but with multiple icons on a different inputs I found it's much more quicker and looks better with using background on the input itself.
 -   Making email placeholder to switch the text and the color wasn't easy to, but with help from Chat GPT I managed to do it.
 -   Refactoring the logic (in _javaScript.js_) behind the verification was a hard task too.
@@ -34,10 +32,15 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Frontend Mentor](https://your-solution-url.com)
--   Live Site URL: [Vercel](https://your-live-site-url.com)
+-   Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-solution-QQgGU3PbM7)
+-   Live Site URL: [Vercel](https://frontend-mentor-sign-up-form-psi.vercel.app/)
 
 ## My process
+
+-   Broke down the task into smaller, manageable parts.
+-   Studied each smaller task in detail.
+-   Organized the tasks in order of priority.
+-   Solved each task step-by-step.
 
 ### Built with
 
