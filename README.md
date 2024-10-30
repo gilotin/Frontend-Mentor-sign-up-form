@@ -14,19 +14,18 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
     -   [Continued development](#continued-development)
     -   [Useful resources](#useful-resources)
 -   [Author](#author)
--   [Acknowledgments](#acknowledgments)
 
 ## Overview
+
+    A Signup/register form can be challenging when people wants to be interactive. That's what this challenge was, at the beginning.
 
 ### The challenge
 
 Users should be able to:
 
--   View the optimal layout for the site depending on their device's screen size
--   See hover states for all interactive elements on the page
--   Receive an error message when the `form` is submitted if:
-    -   Any `input` field is empty. The message for this error should say _"[Field Name] cannot be empty"_
-    -   The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Looks like this is not an email"_
+-   From the previous challenge i was able to put error icons on the right position with _absolute_, but with multiple icons on a different inputs I found it's much more quicker and looks better with using background on the input itself.
+-   Making email placeholder to switch the text and the color wasn't easy to, but with help from Chat GPT I managed to do it.
+-   Refactoring the logic (in _javaScript.js_) behind the verification was a hard task too.
 
 ### Screenshot
 
@@ -49,31 +48,21 @@ Users should be able to:
 
 ### What I learned
 
-**UNDER CONSTRUCTION**
+-   Have better gaps how to abstract JS logic;
+-   Faster and easier way to build some elements of the form;
+-   More CSS properties and how to use them;
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**UNDER CONSTRUCTION**
+I'll continue developing my skills with HTML , CSS and vanilla JS, because i think Fundamentals are really important.
 
 ### Useful resources
 
--   [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
--   [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**UNDER CONSTRUCTION**
+-   [CSS-Tricks](https://css-tricks.com/) - This website has everting about CSS and can help in every way.
+-   [Chat-GPT](https://chatgpt.com/) - Love using it to find faster attributes or properties in HTML and CSS, also helps to find my mistakes easier (sometimes).
 
 ## Author
 
--   Website - [Add your name here](https://www.your-site.com)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
--   Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**UNDER CONSTRUCTION**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**UNDER CONSTRUCTION**
+-   GitHub - [Nikolay Toshev](https://github.com/gilotin)
+-   Frontend Mentor - [@gilotin](https://www.frontendmentor.io/profile/gilotin)
+-   LinkedIn - [@yourusername](https://www.linkedin.com/in/nikolay-toshev-5536a025b/)
